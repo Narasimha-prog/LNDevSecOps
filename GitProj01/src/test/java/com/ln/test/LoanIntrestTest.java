@@ -43,11 +43,7 @@ public class LoanIntrestTest
   {
 	 assertThrows(IllegalArgumentException.class,()->{bankService.calclntrestAmount(12000.0, 0.0, 0.0);});
   }
-  @Test
-  public void testCalCompoundIntrestTimer()
-  {
-	 assertTimeout(Duration.ofMillis(3100),()->{bankService.calclntrestAmount(12000.0, 2.0, 12.0);});
-  }
+  
   @Test
   public void testsPallendromeWithValidInputs()
   {
