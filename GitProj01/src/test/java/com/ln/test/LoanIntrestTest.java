@@ -18,6 +18,7 @@ import com.ln.service.LoanIntrest;
 public class LoanIntrestTest 
 {
   private static LoanIntrest bankService;
+  //changes from STS
   @BeforeAll
   public static void setUp()
   {
